@@ -27,7 +27,7 @@ public class PerfilController {
         Perfil perfil = perfilService.getPerfil();
         Path path = Paths.get("src//main//resources//static//img//"+perfil.getImagen());
         String imgpath = path.toFile().getAbsolutePath();
-        perfil.setImagen(imgpath+perfil.getImagen());
+        perfil.setImagen(imgpath);
         return new ResponseEntity<>(perfil, HttpStatus.OK);
     }
 
