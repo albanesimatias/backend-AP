@@ -1,13 +1,8 @@
 package com.portfolio.backend.data.model;
-
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.http.MediaType;
-import org.springframework.web.multipart.MultipartFile;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.awt.*;
 
 @Entity
 @Getter @Setter

@@ -1,7 +1,5 @@
 package com.portfolio.backend.data.service;
-
 import com.portfolio.backend.data.model.Educacion;
-
 import java.util.List;
 import java.util.Optional;
 

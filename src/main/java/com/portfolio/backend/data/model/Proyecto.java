@@ -1,5 +1,4 @@
 package com.portfolio.backend.data.model;
-
 import lombok.Getter;
 import lombok.Setter;
 import javax.persistence.Entity;

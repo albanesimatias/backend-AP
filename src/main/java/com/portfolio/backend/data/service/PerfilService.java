@@ -1,15 +1,9 @@
 package com.portfolio.backend.data.service;
-
 import com.portfolio.backend.data.model.Perfil;
 import com.portfolio.backend.data.repository.IPerfilRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
-import org.springframework.web.multipart.MultipartFile;
-
 import javax.transaction.Transactional;
-import java.io.File;
-import java.util.Optional;
 
 @Service
 @Transactional
