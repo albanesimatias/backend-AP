@@ -25,9 +25,9 @@ public class PerfilController {
     @GetMapping("get")
     public ResponseEntity<Perfil> list() throws FileNotFoundException {
         Perfil perfil = perfilService.getPerfil();
-        //Path path = Paths.get("src//main//resources//static//img//"+perfil.getImagen());
-        //String imgpath = path.toFile().getAbsolutePath();
-        perfil.setImagen(URL_REPO_PERFIL+perfil.getImagen());
+        Path path = Paths.get("src//main//resources//static//img//"+perfil.getImagen());
+        String imgpath = path.toFile().getAbsolutePath();
+        perfil.setImagen(imgpath+perfil.getImagen());
         return new ResponseEntity<>(perfil, HttpStatus.OK);
     }
 
