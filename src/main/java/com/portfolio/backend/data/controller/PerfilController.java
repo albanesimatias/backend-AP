@@ -15,7 +15,8 @@ import java.nio.file.Paths;
 
 @RestController
 @RequestMapping("/perfil/")
-@CrossOrigin("http://localhost:4200")
+//@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = "https://frontend-portfolio-alba.web.app")
 public class PerfilController {
     @Autowired
     private PerfilService perfilService;
