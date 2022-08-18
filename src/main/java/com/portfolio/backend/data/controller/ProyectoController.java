@@ -13,8 +13,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/proyecto")
-@CrossOrigin("http://localhost:4200")
-//@CrossOrigin(origins = "https://frontend-portfolio-alba.web.app")
+//@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = "https://frontend-portfolio-alba.web.app")
 public class ProyectoController {
     @Autowired
     private ProyectoService proyectoService;
