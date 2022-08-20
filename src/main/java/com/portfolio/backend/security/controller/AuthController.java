@@ -27,7 +27,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/auth")
-//@CrossOrigin("localhost:4200")
+//@CrossOrigin
 @CrossOrigin(origins = "https://frontend-portfolio-alba.web.app")
 public class AuthController {
     @Autowired
